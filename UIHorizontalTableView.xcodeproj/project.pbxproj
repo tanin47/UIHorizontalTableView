@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2C5EB2F153EAF1800B5EAD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C5EB2E153EAF1800B5EAD6 /* UIKit.framework */; };
+		F2C5EB31153EAF1800B5EAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C5EB30153EAF1800B5EAD6 /* Foundation.framework */; };
+		F2C5EB33153EAF1900B5EAD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C5EB32153EAF1900B5EAD6 /* CoreGraphics.framework */; };
+		F2C5EB39153EAF1900B5EAD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2C5EB37153EAF1900B5EAD6 /* InfoPlist.strings */; };
+		F2C5EB3B153EAF1900B5EAD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5EB3A153EAF1900B5EAD6 /* main.m */; };
+		F2C5EB3F153EAF1900B5EAD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5EB3E153EAF1900B5EAD6 /* AppDelegate.m */; };
+		F2C5EB42153EAF1900B5EAD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5EB41153EAF1900B5EAD6 /* ViewController.m */; };
+		F2C5EB45153EAF1900B5EAD6 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C5EB43153EAF1900B5EAD6 /* ViewController_iPhone.xib */; };
+		F2C5EB48153EAF1900B5EAD6 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C5EB46153EAF1900B5EAD6 /* ViewController_iPad.xib */; };
+		F2C5EB50153EAF2C00B5EAD6 /* UIHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5EB4F153EAF2C00B5EAD6 /* UIHorizontalTableView.m */; };
+		F2C5EB5B153EB1BF00B5EAD6 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C5EB5A153EB1BE00B5EAD6 /* Cell.m */; };
+		F2C5EB5D153EB1D300B5EAD6 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2C5EB5C153EB1D300B5EAD6 /* Cell.xib */; };
+		F2C5EB5F153EBAC000B5EAD6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F2C5EB5E153EBAC000B5EAD6 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2C5EB2A153EAF1800B5EAD6 /* UIHorizontalTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIHorizontalTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C5EB2E153EAF1800B5EAD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2C5EB30153EAF1800B5EAD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2C5EB32153EAF1900B5EAD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2C5EB36153EAF1900B5EAD6 /* UIHorizontalTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIHorizontalTableView-Info.plist"; sourceTree = "<group>"; };
+		F2C5EB38153EAF1900B5EAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2C5EB3A153EAF1900B5EAD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2C5EB3C153EAF1900B5EAD6 /* UIHorizontalTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIHorizontalTableView-Prefix.pch"; sourceTree = "<group>"; };
+		F2C5EB3D153EAF1900B5EAD6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2C5EB3E153EAF1900B5EAD6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2C5EB40153EAF1900B5EAD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2C5EB41153EAF1900B5EAD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2C5EB44153EAF1900B5EAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		F2C5EB47153EAF1900B5EAD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		F2C5EB4E153EAF2C00B5EAD6 /* UIHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHorizontalTableView.h; sourceTree = "<group>"; };
+		F2C5EB4F153EAF2C00B5EAD6 /* UIHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHorizontalTableView.m; sourceTree = "<group>"; };
+		F2C5EB59153EB1BE00B5EAD6 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		F2C5EB5A153EB1BE00B5EAD6 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		F2C5EB5C153EB1D300B5EAD6 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; path = Cell.xib; sourceTree = "<group>"; };
+		F2C5EB5E153EBAC000B5EAD6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2C5EB27153EAF1800B5EAD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C5EB2F153EAF1800B5EAD6 /* UIKit.framework in Frameworks */,
+				F2C5EB31153EAF1800B5EAD6 /* Foundation.framework in Frameworks */,
+				F2C5EB33153EAF1900B5EAD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2C5EB1F153EAF1800B5EAD6 = {
+			isa = PBXGroup;
+			children = (
+				F2C5EB5E153EBAC000B5EAD6 /* README.md */,
+				F2C5EB34153EAF1900B5EAD6 /* UIHorizontalTableView */,
+				F2C5EB2D153EAF1800B5EAD6 /* Frameworks */,
+				F2C5EB2B153EAF1800B5EAD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2C5EB2B153EAF1800B5EAD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5EB2A153EAF1800B5EAD6 /* UIHorizontalTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2C5EB2D153EAF1800B5EAD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5EB2E153EAF1800B5EAD6 /* UIKit.framework */,
+				F2C5EB30153EAF1800B5EAD6 /* Foundation.framework */,
+				F2C5EB32153EAF1900B5EAD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2C5EB34153EAF1900B5EAD6 /* UIHorizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5EB3D153EAF1900B5EAD6 /* AppDelegate.h */,
+				F2C5EB3E153EAF1900B5EAD6 /* AppDelegate.m */,
+				F2C5EB40153EAF1900B5EAD6 /* ViewController.h */,
+				F2C5EB41153EAF1900B5EAD6 /* ViewController.m */,
+				F2C5EB43153EAF1900B5EAD6 /* ViewController_iPhone.xib */,
+				F2C5EB46153EAF1900B5EAD6 /* ViewController_iPad.xib */,
+				F2C5EB4E153EAF2C00B5EAD6 /* UIHorizontalTableView.h */,
+				F2C5EB4F153EAF2C00B5EAD6 /* UIHorizontalTableView.m */,
+				F2C5EB59153EB1BE00B5EAD6 /* Cell.h */,
+				F2C5EB5A153EB1BE00B5EAD6 /* Cell.m */,
+				F2C5EB5C153EB1D300B5EAD6 /* Cell.xib */,
+				F2C5EB35153EAF1900B5EAD6 /* Supporting Files */,
+			);
+			path = UIHorizontalTableView;
+			sourceTree = "<group>";
+		};
+		F2C5EB35153EAF1900B5EAD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5EB36153EAF1900B5EAD6 /* UIHorizontalTableView-Info.plist */,
+				F2C5EB37153EAF1900B5EAD6 /* InfoPlist.strings */,
+				F2C5EB3A153EAF1900B5EAD6 /* main.m */,
+				F2C5EB3C153EAF1900B5EAD6 /* UIHorizontalTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2C5EB29153EAF1800B5EAD6 /* UIHorizontalTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2C5EB4B153EAF1900B5EAD6 /* Build configuration list for PBXNativeTarget "UIHorizontalTableView" */;
+			buildPhases = (
+				F2C5EB26153EAF1800B5EAD6 /* Sources */,
+				F2C5EB27153EAF1800B5EAD6 /* Frameworks */,
+				F2C5EB28153EAF1800B5EAD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIHorizontalTableView;
+			productName = UIHorizontalTableView;
+			productReference = F2C5EB2A153EAF1800B5EAD6 /* UIHorizontalTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2C5EB21153EAF1800B5EAD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F2C5EB24153EAF1800B5EAD6 /* Build configuration list for PBXProject "UIHorizontalTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2C5EB1F153EAF1800B5EAD6;
+			productRefGroup = F2C5EB2B153EAF1800B5EAD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2C5EB29153EAF1800B5EAD6 /* UIHorizontalTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2C5EB28153EAF1800B5EAD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C5EB39153EAF1900B5EAD6 /* InfoPlist.strings in Resources */,
+				F2C5EB45153EAF1900B5EAD6 /* ViewController_iPhone.xib in Resources */,
+				F2C5EB48153EAF1900B5EAD6 /* ViewController_iPad.xib in Resources */,
+				F2C5EB5D153EB1D300B5EAD6 /* Cell.xib in Resources */,
+				F2C5EB5F153EBAC000B5EAD6 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2C5EB26153EAF1800B5EAD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C5EB3B153EAF1900B5EAD6 /* main.m in Sources */,
+				F2C5EB3F153EAF1900B5EAD6 /* AppDelegate.m in Sources */,
+				F2C5EB42153EAF1900B5EAD6 /* ViewController.m in Sources */,
+				F2C5EB50153EAF2C00B5EAD6 /* UIHorizontalTableView.m in Sources */,
+				F2C5EB5B153EB1BF00B5EAD6 /* Cell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2C5EB37153EAF1900B5EAD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C5EB38153EAF1900B5EAD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2C5EB43153EAF1900B5EAD6 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C5EB44153EAF1900B5EAD6 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F2C5EB46153EAF1900B5EAD6 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2C5EB47153EAF1900B5EAD6 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2C5EB49153EAF1900B5EAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2C5EB4A153EAF1900B5EAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2C5EB4C153EAF1900B5EAD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIHorizontalTableView/UIHorizontalTableView-Prefix.pch";
+				INFOPLIST_FILE = "UIHorizontalTableView/UIHorizontalTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2C5EB4D153EAF1900B5EAD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIHorizontalTableView/UIHorizontalTableView-Prefix.pch";
+				INFOPLIST_FILE = "UIHorizontalTableView/UIHorizontalTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2C5EB24153EAF1800B5EAD6 /* Build configuration list for PBXProject "UIHorizontalTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C5EB49153EAF1900B5EAD6 /* Debug */,
+				F2C5EB4A153EAF1900B5EAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2C5EB4B153EAF1900B5EAD6 /* Build configuration list for PBXNativeTarget "UIHorizontalTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C5EB4C153EAF1900B5EAD6 /* Debug */,
+				F2C5EB4D153EAF1900B5EAD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2C5EB21153EAF1800B5EAD6 /* Project object */;
+}
