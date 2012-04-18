@@ -86,8 +86,25 @@
         UIView *v = [self.horizontalDelegate tableView:self cellForColumnAt:i];
         v.frame = CGRectMake(i * widthOfCell, 0, v.frame.size.width,  v.frame.size.height);
         
+        v.tag = i;
+        
         [self addSubview:v];
+        
+        UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(cellClicked:)];
+        [singleTap setNumberOfTapsRequired:1];
+        [singleTap setNumberOfTouchesRequired:1];
+        
+        [v addGestureRecognizer:singleTap];
+        [singleTap release];
     }
+    
+    
+}
+
+- (IBAction) cellClicked: (UIGestureRecognizer *) recognizer
+{
+    NSLog(@"Clicked %d", recognizer.view.tag);
+    [self.horizontalDelegate tableView:self didSelectColumnAt:recognizer.view.tag];
 }
 
 

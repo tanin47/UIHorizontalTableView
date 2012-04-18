@@ -35,5 +35,6 @@
 
 - (void) setup;
 - (UIView *) dequeueReusableCell;
+- (IBAction) cellClicked: (UIGestureRecognizer *) recognizer;
 
 @end

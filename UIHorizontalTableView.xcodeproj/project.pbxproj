@@ -41,7 +41,7 @@
 		F2C5EB4F153EAF2C00B5EAD6 /* UIHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHorizontalTableView.m; sourceTree = "<group>"; };
 		F2C5EB59153EB1BE00B5EAD6 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		F2C5EB5A153EB1BE00B5EAD6 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
-		F2C5EB5C153EB1D300B5EAD6 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; path = Cell.xib; sourceTree = "<group>"; };
+		F2C5EB5C153EB1D300B5EAD6 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
 		F2C5EB5E153EBAC000B5EAD6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
